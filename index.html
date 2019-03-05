@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/payment-point.css">
+  <title>Payment Point</title>
+</head>
+<body>
+<div class="container-fluid">
+  <div id="paymentPointHeader" class="row text-center align-items-center" style="margin-top:15px;">
+    <div class="col-2">
+      <a id="hamburger" href="#">
+          <img class="img-fluid" src="assets/images/hamburger.png" alt="Payment point" width="35%">
+      </a>
+    </div>
+    <div class="col-8 col-xs-8 col-sm-8 col-md-6 col-lg-8">
+      <a id="paymentPointLogo" href="#">
+          <img class="img-fluid" src="assets/images/Payment-Point-logo-transparent.png" alt="Payment point}" width="100%">
+      </a>
+    </div>
+    <div class="col-2 col-xs-2 col-sm-2 col-md-4 col-lg-2">
+      <div class="row no-gutters">
+        <div class="col-4 col-md-4 col-lg-4 d-none d-md-block">
+          <a id="register" href="#" >Register</a>
+        </div>
+        <div class="col-4 col-md-4 col-lg-4 d-none d-md-block">
+          <a id="signIn" href="#">Sign In</a>
+        </div>
+        <div class="col col-md-4 col-lg-4 ">
+          <a  id="userProfile" href="#">
+            <img class="img-fluid" src="assets/images/UserProfileLogo.png" alt="Payment point" width="100%">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!-- content container -->
+
+
+<div class="container">
+      <div class="row justify-content-center align-items-center" style="height: 72vh;">
+        <div class="col-10 col-xs-10 col-sm-8 col-md-6 col-lg-4">
+          <h2 class="text-nowrap" style="color:#ffffff;text-indent:1.7em;margin-bottom: 1rem;line-height: 1.4">
+            See if you have <br/> any payments to make
+          </h2>
+          <form action="#" id="mobileNoForm">
+            <div class="form-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="smartPhoneAddon">
+                  <img id="smartPhoneSvg" src="assets/images/smartphone.svg">
+                  <input type="tel" class="form-control" id="phone" name="phone" pattern="[0-9]{10}"
+                         placeholder="Enter your mobile number"  oninvalid="setCustomValidity('Please enter a valid phone No')" required>
+                </span>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Next</button>
+          </form>
+        </div>
+      </div>
+</div>
+
+<div class="container">
+  <div id="chatButton" class="row">
+    <div class="col whiteCircle">
+      <a href="#">
+        <img class="img-fluid mx-auto d-block" src="assets/images/chat-bubble.png" alt="Payment point}">
+      </a>
+    </div>
+  </div>
+</div>
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
